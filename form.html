@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+</head>
+<body>
+
+  <div>
+    <div>
+      <div>
+        <form action="." method="POST" enctype="multipart/form-data">
+          <div>
+            <label for="id_email">Email</label>
+            <input id="id_email" name="email" type="email"/>
+          </div>
+          <div>
+            <label for="id_password">Password</label>
+            <input id="id_password" name="password" type="password"/>
+          </div>
+          <div>
+            <label for="id_photo">Photo</label>
+            <input id="id_photo" name="photo" type="file"/>
+            <p>Exemplo de texto de ajuda aqui.</p>
+          </div>
+          <div>
+            <label>
+              <input type="checkbox"/> Check me out
+            </label>
+          </div>
+          <div>
+            <select>
+              <option value="1">Um</option>
+              <option value="2">Dois</option>
+              <option value="3">Três</option>
+              <option value="4">Quatro</option>
+              <option value="5">Cinco</option>
+            </select>
+          </div>
+          <div>
+            <p>Seleção múltipla</p>
+            <label>
+              <input id="id_inlineCheckbox1" name="inlineCheckbox1" type="checkbox" value="option1"/> Um
+            </label>
+            <label>
+              <input id="id_inlineCheckbox2" name="inlineCheckbox2" type="checkbox" value="option2"/> Dois
+            </label>
+            <label>
+              <input id="id_inlineCheckbox3" name="inlineCheckbox3" type="checkbox" value="option3"/> Três
+            </label>
+          </div>
+          <div>
+            <p>Seleção única</p>
+            <label>
+              <input id="id_inlineRadio1" name="inlineRadioOtions" type="radio" value="option1" /> Um
+            </label>
+            <label>
+              <input id="id_inlineRadio2" name="inlineRadioOtions" type="radio" value="option2" /> Dois
+            </label>
+            <label>
+              <input id="id_inlineRadio3" name="inlineRadioOtions" type="radio" value="option3" /> Três
+            </label>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

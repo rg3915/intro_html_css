@@ -1,0 +1,60 @@
+body {
+  padding: 20px 20px 20px 20px;
+}
+h1 {
+  margin: 10px 0 15px 0;
+}
+h2 {
+  margin: 10px 0 20px 0;
+}
+h3 {
+  margin: 15px 0 15px 0;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 3px;
+}
+ul {
+  padding: 0 0 0 50px;
+}
+ol {
+  padding: 0 0 0 50px;
+}
+.nav {
+  padding-left: 0;
+}
+.nav a {
+  color: #000af;
+}
+.nav li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: darkred;
+}
+ol li:first-child {
+  color: red;
+}
+.receitas {
+  list-style-type: none;
+  padding: 0;
+}
+.receitas li {
+  border: 1px solid #b56663;
+  /*padding-left: 15px;*/
+}
+.receitas h3 {
+  border-bottom: 0;
+}
+.receitas a {
+  color: #7facaa;
+  text-decoration: none;
+}
+.receitas img {
+  float: left;
+  padding-right: 10px;
+  width: 130px;
+  height: auto;
+}

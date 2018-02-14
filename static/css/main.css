@@ -1,0 +1,31 @@
+h2 {
+  padding: 10px 0 10px 0;
+  margin: 20px 0 20px 0;
+}
+p {
+  text-decoration: underline;
+  color: red;
+}
+ul {
+  padding: 0 0 0 50px;
+}
+ul li {
+  font-size: 24px;
+  /*display: inline;*/
+}
+.nav {
+  padding-left: 0;
+}
+.nav li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: darkred;
+}
+ol li:first-child {
+  color: red;
+}

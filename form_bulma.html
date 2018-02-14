@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    #form {
+      margin-top: 20px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="container">
+    <section class="hero is-info">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Formulário</h1>
+          <h2 class="subtitle">Favor preencher os seus dados</h2>
+        </div>
+      </div>
+    </section>
+    <div id="form">
+      <div class="columns is-centered">
+        <div class="column is-half">
+          <form action="." method="POST" enctype="multipart/form-data">
+            <div class="field">
+              <label class="label" for="id_name">Nome</label>
+              <div class="control">
+                <input class="input" id="id_name" name="name" type="name" placeholder="Nome completo" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Email</label>
+              <div class="control has-icons-left has-icons-right">
+                <input class="input is-danger" type="email" placeholder="Email" value="hello@">
+                <span class="icon is-small is-left">
+                  <i class="fa fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                  <i class="fa fa-exclamation-triangle"></i>
+                </span>
+              </div>
+              <p class="help is-danger">Esse email é inválido</p>
+            </div>
+
+            <div class="field">
+              <label class="label" for="id_password">Senha</label>
+              <input class="input" id="id_password" name="password" type="password" placeholder="8 dígitos" />
+            </div>
+
+            <div>
+              <label class="label" for="id_photo">Foto</label>
+              <input id="id_photo" name="photo" type="file"/>
+              <p class="help is-info">Exemplo de texto de ajuda aqui.</p>
+            </div>
+
+            <div class="field">
+              <label class="label">Mensagem</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Textarea"></textarea>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="control">
+                <label class="checkbox">
+                  <input type="checkbox"> Novidades?
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Escolha</label>
+              <div class="control">
+                <div class="select">
+                  <select>
+                    <option value="1">Um</option>
+                    <option value="2">Dois</option>
+                    <option value="3">Três</option>
+                    <option value="4">Quatro</option>
+                    <option value="5">Cinco</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="control">
+                <p>Seleção múltipla</p>
+                <label class="checkbox">
+                  <input id="id_inlineCheckbox1" name="inlineCheckbox1" type="checkbox" value="option1"/> Um
+                </label>
+                <label class="checkbox">
+                  <input id="id_inlineCheckbox2" name="inlineCheckbox2" type="checkbox" value="option2"/> Dois
+                </label>
+                <label class="checkbox">
+                  <input id="id_inlineCheckbox3" name="inlineCheckbox3" type="checkbox" value="option3"/> Três
+                </label>
+              </div>
+            </div>
+
+            <div class="field">
+              <div class="control">
+                <p>Seleção única</p>
+                <label class="radio">
+                  <input id="id_inlineRadio1" name="inlineRadioOtions" type="radio" value="option1" /> Um
+                </label>
+                <label class="radio">
+                  <input id="id_inlineRadio2" name="inlineRadioOtions" type="radio" value="option2" /> Dois
+                </label>
+                <label class="radio">
+                  <input id="id_inlineRadio3" name="inlineRadioOtions" type="radio" value="option3" /> Três
+                </label>
+              </div>
+            </div>
+
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-link">Salvar</button>
+              </div>
+              <div class="control">
+                <button class="button is-text">Cancelar</button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

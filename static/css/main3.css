@@ -1,0 +1,62 @@
+body {
+  padding: 0 0 0 0;
+  background-color: #5f5f5f;
+  background-image: url(static/img/bolo-wallpaper.jpg);
+}
+.nav {
+  padding-left: 0;
+  margin: 5px 0 20px 0;
+  text-align: center;
+}
+.nav a {
+  color: #000af;
+}
+.nav li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: darkred;
+}
+.header {
+  padding: 10px 10px 10px 10px;
+  background-color: #b56663;
+}
+.header a {
+  color: #ffffff;
+}
+.header img {
+  display: block;
+  margin: 0 auto 0 auto;
+}
+.main-content {
+  width: 500px;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #dddddd;
+  /*margin: 30px 0 0;*/
+  margin: 30px auto 0 auto;
+}
+h1 {
+  color: #ffffff;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+h2 {
+  margin: 10px 0 20px 0;
+  text-align: center;
+}
+.photos {
+  list-style-type: none;
+  padding: 0;
+}
+.photos li {
+  display: inline;
+  padding-left: 11px;
+}
+img {
+  height: 90px;
+  width: auto;
+}

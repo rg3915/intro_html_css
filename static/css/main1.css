@@ -1,0 +1,44 @@
+h2 {
+  padding-top: 6px;
+  padding-right: 3px;
+  padding-bottom: 0;
+  padding-left: 0;
+  /*padding: 6px 3px 0 0;*/
+  border-width: 6px;
+  border-style: solid;
+  border-color: black;
+  /*border: 6px solid black;*/
+  /*border-bottom: 6px solid black;*/
+  margin-top: 6px;
+  margin-right: 0;
+  margin-bottom: 6px;
+  margin-left: 0;
+  /*margin: 6px 0 6px 0;*/
+}
+p {
+  text-decoration: underline;
+  color: red;
+}
+ul {
+  padding: 0 0 0 50px;
+}
+ul li {
+  font-size: 24px;
+  /*display: inline;*/
+}
+.nav {
+  padding-left: 0;
+}
+.nav li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: darkred;
+}
+ol li:first-child {
+  color: red;
+}
