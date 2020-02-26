@@ -54,6 +54,28 @@ Uma maneira de literalmente "marcar" um documento para especificar atributos, co
 diferentes tamanhos de fontes, listas, links para outras páginas e imagens.
 
 
+## Corpo do HTML
+
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Título</title>
+</head>
+
+<body>
+  <div>
+    <h1>Grandes Receitas</h1>
+    <p>Como preparar um bolo de cenoura saboroso.</p>
+  </div>
+</body>
+
+</html>
+```
+
+
 ## Grandes Receitas
 
 ```html
@@ -104,18 +126,6 @@ Abre tag, fecha tag.
   </ol>
 ```
 
-### Corpo do HTML
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-
-</head>
-<body>
-
-</body>
-```
 
 ### Link
 
@@ -175,6 +185,91 @@ Abre tag, fecha tag.
 </body>
 </html>
 ```
+
+## Imagens
+
+#### Jeito errado
+
+```html
+<img></img>
+```
+
+#### Jeito certo
+
+```html
+<img>
+```
+
+**Sintaxe:**
+
+```html
+<img src="https://raw.githubusercontent.com/rg3915/intro_html_css/master/2018/static/img/bolo-cenoura-chocolate.jpg" alt="bolo de cenoura com chocolate">
+```
+
+#### Exemplo
+
+```html
+<h3>Fotos</h3>
+
+<ul class="photos">
+  <li><img src="https://raw.githubusercontent.com/rg3915/intro_html_css/master/2018/static/img/bolo-de-cenoura.jpg" alt="Foto 1"></li>
+  <li><img src="https://raw.githubusercontent.com/rg3915/intro_html_css/master/2018/static/img/bolo-cenoura.jpg" alt="Foto 2"></li>
+  <li><img src="https://raw.githubusercontent.com/rg3915/intro_html_css/master/2018/static/img/bolo-cenoura-chocolate.jpg" alt="Foto 3"></li>
+</ul>
+```
+
+
+## Tabelas
+
+```
+<table border="1">
+
+  <thead>
+    <tr>
+      <th>Marca</th>
+      <th>Modelo</th>
+      <th>Ano</th>
+    </tr>
+  </thead>
+
+  <tbdy>
+    <tr>
+      <td>Honda</td>
+      <td>Civic</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <td>Volkswagen</td>
+      <td>Gol</td>
+      <td>2019</td>
+    </tr>
+    <tr>
+      <td>Fiat</td>
+      <td>Palio</td>
+      <td>2020</td>
+    </tr>
+    <tr>
+      <td>Renault</td>
+      <td>Logan</td>
+      <td>2020</td>
+    </tr>
+  </tbdy>
+
+  <tfooter>
+    <tr>
+      <td>Última atualização 02/2020.</td>
+    </tr>
+  </tfooter>
+
+</table>
+```
+
+
+
+
+
+
+
 
 
 # CSS
@@ -569,62 +664,6 @@ h2 {
 }
 ```
 
-## Imagens
-
-#### Jeito errado
-
-```html
-<img></img>
-```
-
-#### Jeito certo
-
-```html
-<img>
-```
-
-**Sintaxe:**
-
-```html
-<img src="static/img/bolo.jpg" alt="bolo">
-```
-
-#### Exemplo
-
-```html
-<h3>Fotos</h3>
-
-<ul class="photos">
-  <li><img src="static/img/bolo-cenoura-chocolate.jpg" alt="Foto 1"></li>
-  <li><img src="static/img/bolo-cenoura.jpg" alt="Foto 2"></li>
-  <li><img src="static/img/bolo-de-cenoura.jpg" alt="Foto 3"></li>
-</ul>
-```
-
-```css
-.photos {
-  list-style-type: none;
-  padding: 0;
-}
-.photos li {
-  display: inline;
-  padding-left: 11px;
-}
-img {
-  height: 90px;
-  width: auto;
-}
-```
-
-### Imagens como plano de fundo
-
-```css
-body {
-  padding: 0 0 0 0;
-  background-color: #5f5f5f;
-  background-image: url(static/img/bolo-wallpaper.jpg);
-}
-```
 
 ## Formulários
 
