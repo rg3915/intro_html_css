@@ -1203,3 +1203,12 @@ Abra `form.html`
 
 ![navbar](static/img/navbar.png)
 
+## Links
+
+Links mencionados no primeiro video:
+
+https://pt.wikipedia.org/wiki/HTML#Ver_tamb%C3%A9m
+https://pt.wikipedia.org/wiki/LaTeX
+https://pt.wikipedia.org/wiki/Markdown
+https://pt.wikipedia.org/wiki/Modelo_de_Objeto_de_Documentos
+https://www.w3schools.com/js/js_htmldom.asp
