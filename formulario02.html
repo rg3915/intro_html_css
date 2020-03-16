@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulários</title>
+</head>
+
+<body>
+  <form action="." method="POST">
+    <!-- Rótulo -->
+    <label>Usuário</label>
+    <!-- Caixa de Texto -->
+    <input name="usuario" type="text" placeholder="Digite seu nome">
+    <br>
+
+    <!-- Rótulo -->
+    <label>Senha</label>
+    <!-- Caixa de Senha -->
+    <input name="senha" type="password" placeholder="Digite sua senha">
+    <br>
+
+    <!-- Caixa de Data -->
+    <label>Nascimento</label>
+    <input name="nascimento" type="date">
+    <br>
+
+    <!-- Caixa de Busca -->
+    <label>Busca</label>
+    <input name="busca" type="search">
+    <br>
+
+    <!-- Caixa de Número -->
+    <label>Número</label>
+    <input type="number" min="0" max="1" step="0.01">
+    <br>
+
+    <label>Intervalo</label>
+    <input type="range" min="0" max="1" step="0.01">
+    <br>
+
+    <!-- E-mail -->
+    <label>E-mail</label>
+    <input name="email" type="email">
+    <br>
+
+    <!-- Telefone -->
+    <label>Telefone</label>
+    <input name="telefone" type="tel">
+    <br>
+
+    <!-- url -->
+    <label>url</label>
+    <input name="url" type="url">
+    <br>
+
+    <!-- Mais datas -->
+    <label>Data</label>
+    <input name="data" type="date">
+    <br>
+
+    <label>Mês</label>
+    <input name="mes" type="month">
+    <br>
+
+    <label>Hora</label>
+    <input name="hora" type="time">
+    <br>
+
+    <label>Semana</label>
+    <input name="semana" type="week">
+    <br>
+
+    <!-- Texto longo -->
+    <label>Descrição</label>
+    <textarea name="descricao" cols="30" rows="10" maxlength="280" placeholder="Descrição..."></textarea>
+    <br>
+
+    <!-- Cores -->
+    <label>Cor</label>
+    <input type="color">
+
+    <!-- Caixa de submit -->
+    <input type="submit" value="Enviar">
+  </form>
+</body>
