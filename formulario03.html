@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulários</title>
+</head>
+
+<body>
+  <form action="." method="POST">
+    <h2>Checkbox</h2>
+    <p>É importante definir o atributo <i>value</i>.</p>
+
+    <h4>Checkbox é um booleano.</h4>
+
+    <p>O funcionário:</p>
+    <input name="existe" type="checkbox" checked>
+    <label>Existe?</label>
+    <br>
+    <br>
+
+    <input name="ativo" type="checkbox" checked>
+    <label>Ativo</label>
+
+
+    <h3>Checkbox com seleção múltipla</h3>
+    <label>Escolha uma ou várias linguagens de marcação de texto.</label>
+    <br>
+    <p>Quando você define todos com o mesmo nome, você está definindo um grupo de checkbox. Isso significa que o formulário vai enviar um campo com vários valores.</p>
+    <input name="linguagens" type="checkbox" value="HTML">
+    <label>HTML</label>
+    <input name="linguagens" type="checkbox" value="Markdown">
+    <label>Markdown</label>
+    <input name="linguagens" type="checkbox" value="LaTeX">
+    <label>LaTeX</label>
+    <input name="linguagens" type="checkbox" value="CSS">
+    <label>CSS</label>
+    <input name="linguagens" type="checkbox" value="Javascript">
+    <label>Javascript</label>
+    <br>
+    <br>
+
+    <h4>Outro grupo</h4>
+
+    <label>Escolha uma ou várias frutas.</label>
+    <br>
+    <input name="frutas" type="checkbox" value="Abacate">
+    <label>Abacate</label>
+    <input name="frutas" type="checkbox" value="Abacaxi">
+    <label>Abacaxi</label>
+    <input name="frutas" type="checkbox" value="Banana">
+    <label>Banana </label>
+    <input name="frutas" type="checkbox" value="Cajú">
+    <label>Cajú </label>
+    <input name="frutas" type="checkbox" value="Laranja">
+    <label>Laranja</label>
+    <input name="frutas" type="checkbox" value="Maçã">
+    <label>Maçã </label>
+
+    <h3>Radio</h3>
+
+    <h3>Checkbox com seleção de apenas um item</h3>
+
+    <label>Escolha um dia da semana.</label>
+    <br>
+    <input name="dia" type="radio" value="Domingo">
+    <label>Domingo</label>
+    <input name="dia" type="radio" value="Segunda">
+    <label>Segunda</label>
+    <input name="dia" type="radio" value="Terça">
+    <label>Terça</label>
+    <input name="dia" type="radio" value="Quarta">
+    <label>Quarta</label>
+    <input name="dia" type="radio" value="Quinta">
+    <label>Quinta</label>
+    <input name="dia" type="radio" value="Sexta">
+    <label>Sexta</label>
+    <input name="dia" type="radio" value="Sábado">
+    <label>Sábado</label>
+    <br>
+    <br>
+
+    <!-- Caixa de submit -->
+    <input type="submit" value="Enviar">
+  </form>
+</body>
