@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulários</title>
+</head>
+
+<body>
+  <form action="." method="POST">
+    <h2>Dropdown list ou Lista de opções</h2>
+
+    <label>Estados</label>
+    <br>
+    <select name="estado">
+      <option value="ES">Espírito Santo</option>
+      <option value="MG">Minas Gerais</option>
+      <option value="RJ">Rio de Janeiro</option>
+      <option value="SP">São Paulo</option>
+    </select>
+
+    <h3>Seleção múltipla</h3>
+
+    <label>Cores</label>
+    <br>
+    <select name="cores" multiple="multiple">
+      <option value="amarelo">Amarelo</option>
+      <option value="azul">Azul</option>
+      <option value="branco">Branco</option>
+      <option value="laranja">Laranja</option>
+      <option value="preto">Preto</option>
+      <option value="verde">Verde</option>
+      <option value="vermelho">Vermelho</option>
+    </select>
+
+    <h3>Opções agrupadas</h3>
+
+    <label>Sobremesas</label>
+    <br>
+    <select name="sobremesa">
+      <optgroup label="Bebidas">
+        <option value="agua">Água</option>
+        <option value="suco">Suco</option>
+        <option value="refrigerante">Refrigerante</option>
+      </optgroup>
+
+      <optgroup label="Sorvetes">
+        <option value="casquinha">Casquinha</option>
+        <option value="sundae">Sundae</option>
+      </optgroup>
+    </select>
+
+    <br>
+    <br>
+
+    <label>Estados</label>
+    <br>
+    <select name="estado">
+      <optgroup label="Norte">
+        <option value="AC">Acre</option>
+        <option value="AM">Amazonas</option>
+        <option value="AP">Amapá</option>
+        <option value="PA">Pará</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="TO">Tocantins</option>
+      </optgroup>
+
+      <optgroup label="Nordeste">
+        <option value="AL">Alagoas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="MA">Maranhão</option>
+        <option value="PB">Paraíba</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="SE">Sergipe</option>
+      </optgroup>
+
+      <optgroup label="Centro-Oeste">
+        <option value="GO">Goiás</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MT">Mato Grosso</option>
+      </optgroup>
+
+      <optgroup label="Sudeste">
+        <option value="ES">Espírito Santo</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="SP">São Paulo</option>
+      </optgroup>
+
+      <optgroup label="Sul">
+        <option value="PR">Paraná</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="SC">Santa Catarina</option>
+      </optgroup>
+    </select>
+    <br>
+    <br>
+
+    <!-- Caixa de submit -->
+    <input type="submit" value="Enviar">
+  </form>
+</body>
