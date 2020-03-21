@@ -1207,8 +1207,23 @@ Abra `form.html`
 
 Links mencionados no primeiro video:
 
-https://pt.wikipedia.org/wiki/HTML#Ver_tamb%C3%A9m
-https://pt.wikipedia.org/wiki/LaTeX
-https://pt.wikipedia.org/wiki/Markdown
-https://pt.wikipedia.org/wiki/Modelo_de_Objeto_de_Documentos
-https://www.w3schools.com/js/js_htmldom.asp
+* https://pt.wikipedia.org/wiki/HTML#Ver_tamb%C3%A9m
+* https://pt.wikipedia.org/wiki/LaTeX
+* https://pt.wikipedia.org/wiki/Markdown
+* https://pt.wikipedia.org/wiki/Modelo_de_Objeto_de_Documentos
+* https://www.w3schools.com/js/js_htmldom.asp
+
+Cores
+
+https://www.w3schools.com/colors/colors_names.asp
+https://www.w3schools.com/colors/colors_picker.asp
+https://www.w3schools.com/colors/colors_converter.asp
+https://www.w3schools.com/colors/colors_hexadecimal.asp
+https://htmlcolorcodes.com/
+https://htmlcolorcodes.com/color-names/
+https://htmlcolorcodes.com/color-picker/
+https://www.color-hex.com/
+https://coolors.co/
+https://materialuicolors.co/
+http://clrs.cc/
+
