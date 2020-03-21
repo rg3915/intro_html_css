@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CSS | Display vs Visibility</title>
+
+  <style>
+    h1 {
+      font-family: sans-serif;
+    }
+
+    .display {
+      display: none;
+    }
+
+    .invisivel {
+      visibility: hidden;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>CSS | Display vs Visibility</h1>
+
+  <p>Lorem ipsum dolor sit amet, <span class="display">consectetur</span> adipisicing elit. Tempore, a, blanditiis consectetur aperiam non praesentium cupiditate <span class="invisivel">inventore</span> quidem atque magnam, quae dolor. Porro ex maiores eligendi repudiandae velit laudantium aliquid.</p>
+
+  <!-- ul>li{um}+li.display{dois}+li{tres}+li.invisivel{quatro}+li{cinco} -->
+
+  <ul>
+    <li>um</li>
+    <li class="display">dois</li>
+    <li>tres</li>
+    <li class="invisivel">quatro</li>
+    <li>cinco</li>
+  </ul>
+
+</body>
+
+</html>
