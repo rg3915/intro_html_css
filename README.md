@@ -1213,17 +1213,25 @@ Links mencionados no primeiro video:
 * https://pt.wikipedia.org/wiki/Modelo_de_Objeto_de_Documentos
 * https://www.w3schools.com/js/js_htmldom.asp
 
-Cores
+### Cores
 
-https://www.w3schools.com/colors/colors_names.asp
-https://www.w3schools.com/colors/colors_picker.asp
-https://www.w3schools.com/colors/colors_converter.asp
-https://www.w3schools.com/colors/colors_hexadecimal.asp
-https://htmlcolorcodes.com/
-https://htmlcolorcodes.com/color-names/
-https://htmlcolorcodes.com/color-picker/
-https://www.color-hex.com/
-https://coolors.co/
-https://materialuicolors.co/
-http://clrs.cc/
+* https://www.w3schools.com/colors/colors_names.asp
+* https://www.w3schools.com/colors/colors_picker.asp
+* https://www.w3schools.com/colors/colors_converter.asp
+* https://www.w3schools.com/colors/colors_hexadecimal.asp
+* https://htmlcolorcodes.com/
+* https://htmlcolorcodes.com/color-names/
+* https://htmlcolorcodes.com/color-picker/
+* https://www.color-hex.com/
+* https://coolors.co/
+* https://materialuicolors.co/
+* http://clrs.cc/
 
+### Frameworks CSS
+
+* https://material-components.github.io/material-components-web-catalog/#/component/card
+* https://material-components.github.io/material-components-web-catalog/#/component/card
+* https://bulma.io/
+* http://getskeleton.com/
+* https://semantic-ui.com/
+* https://tailwindcss.com/
