@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CSS | Transformações</title>
+
+  <style>
+    h1 {
+      font-family: sans-serif;
+    }
+
+    div {
+      border: 1px solid #000;
+      height: 100px;
+      width: 100px;
+      color: white;
+      transition: 1s ease-in-out;
+    }
+
+    .um {
+      background-color: lightBlue;
+    }
+
+    .um:hover {
+      background-color: blue;
+      transform: translate(100px, 0);
+    }
+
+    .dois {
+      background-color: lightGreen;
+    }
+
+    .dois:hover {
+      background-color: Green;
+      transform: scale(5, 1);
+    }
+
+    .tres {
+      background-color: yellow;
+    }
+
+    .tres:hover {
+      background-color: Orange;
+      transform: rotate(90deg);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS | Transformações</h1>
+
+  <!-- div.um+div.dois+div.tres -->
+
+  <div class="um"></div>
+  <div class="dois"></div>
+  <div class="tres"></div>
+</body>
+
+</html>
