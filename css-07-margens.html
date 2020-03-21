@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CSS | Margens</title>
+
+  <style>
+    h1 {
+      font-family: sans-serif;
+    }
+    div {
+      font-size: 30px;
+    }
+
+    .m0 {
+      border: 1px solid #000;
+      width: 300px;
+      height: 300px;
+      position: relative;
+    }
+
+    .m1 {
+      background-color: cyan;
+      border: 1px solid #000;
+      width: 300px;
+      height: 100px;
+      margin-top: 5px;
+      margin-right: 10px;
+      margin-bottom: 15px;
+      margin-left: 20px;
+    }
+
+    .m2 {
+      background-color: pink;
+      border: 1px solid #000;
+      width: 300px;
+      height: 100px;
+      margin: 5px 10px;
+    }
+
+    .m3 {
+      width: 550px;
+      height: 210px;
+      border: 1px solid #000;
+      margin-top: 10px;
+    }
+
+    .left {
+      float: left;
+      background-color: cyan;
+      width: 200px;
+      height: 200px;
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .middle {
+      float: left;
+      background: Blue;
+      width: 70px;
+      height: 200px;
+    }
+
+    .right {
+      float: left;
+      background: Orange;
+      width: 200px;
+      height: 200px;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS | Margens</h1>
+
+  <!-- div.m0>(div.m1+div.m2) -->
+  <!-- div.m3>(div.left{esquerda}+div.middle{meio}+div.right{direita}) -->
+
+  <div class="m0">
+    <div class="m1">1</div>
+    <div class="m2">2</div>
+  </div>
+
+  <div class="m3">
+    <div class="left">esquerda</div>
+    <div class="middle">meio</div>
+    <div class="right">direita</div>
+  </div>
+</body>
+
+</html>
