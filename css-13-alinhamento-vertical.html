@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CSS | Alinhamento vertical</title>
+
+  <style>
+    h1 {
+      font-family: sans-serif;
+    }
+
+    .um {
+      border: 1px solid #000;
+      width: 100px;
+      height: 300px;
+      position: relative;
+    }
+
+    .dois {
+      border: 1px solid #000;
+      background-color: lightGreen;
+      width: 70px;
+      height: 200px;
+      position: absolute;
+      top: 50%;
+      margin-top: -100px;
+      left: 50%;
+      margin-left: -35px;
+    }
+
+    .tres {
+      border: 1px solid #000;
+      width: 300px;
+      height: 120px;
+      position: relative;
+    }
+
+    .quatro {
+      border: 1px dashed #000;
+      line-height: 110px;
+      margin: 5px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS | Alinhamento Vertical</h1>
+
+  <a href="https://www.maujor.com/tutorial/centralizando-com-css-um-guia-completo.php" target="_blank">https://www.maujor.com/tutorial/centralizando-com-css-um-guia-completo.php</a>
+
+  <!-- (div.um>div.dois)+(div.tres>div.quatro{Texto centralizado}) -->
+
+  <div class="um">
+    <div class="dois"></div>
+  </div>
+  <div class="tres">
+    <p class="quatro">Texto centralizado</p>
+  </div>
+</body>
+
+</html>
